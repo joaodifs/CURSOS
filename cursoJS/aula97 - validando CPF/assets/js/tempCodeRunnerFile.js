@@ -1,0 +1,1 @@
+const digito = 11 - (digito%11)
