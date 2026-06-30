@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #333333;
+}
+
+:root{
+    line-height: 150%;
+}
+
+#page{
+    box-sizing: border-box;
+width: 1120px;
+    margin: 41px auto 41px;
+    border-radius: 16px;
+ font-family: "Open Sans", sans-serif;
+}
+
+img{
+    width: 1120px;
+    height: 350px;
+    border-radius:28px ;
+    margin: 40px 0 20px 0;
+}
+
+#imgprincipal{
+    margin: 10px 0;
+}
+
+header img{
+    height: 660px;
+}
+
+#headline{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold; /* A fonte fica em negrito */
+  color: #e1624f;
+  text-transform: uppercase; /* A fonte fica com todas as letras em maiúsculo */
+}
+
+#description {
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic; /* Muda estilo da fonte para itálico */
+  text-align: center;
+  color: #333333;
+  margin: 40px auto;
+}
+
+#divider {
+  width: 100%;
+  margin: 36px 0;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    margin: 36px 0
+}
+h1{
+    margin-bottom: 40px;
+    margin-top: 12px;
+    font-size: 36px;
+}
+h2{
+        margin-bottom: 20px;
+    margin-top: 12px;
+    font-size: 32px;
+}
+h3{
+        margin-bottom: 15px;
+    font-size: 28px;
+}
+
+ul{
+    list-style-position: inside
+}
+
+b{
+    display: block;
+    margin-top: 12px;
+}
