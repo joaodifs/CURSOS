@@ -8,18 +8,25 @@
     line-height: 150%;
 }
 
+body{
+    background-color: #ffe7e3;
+}
+
 #page{
+    background-color: white;
     box-sizing: border-box;
 width: 1120px;
-    margin: 41px auto 41px;
+padding:16px ;
+    margin: 45px auto 45px;
     border-radius: 16px;
  font-family: "Open Sans", sans-serif;
 }
 
 img{
-    width: 1120px;
-    height: 350px;
-    border-radius:28px ;
+width: 100%;            /* A imagem agora vai ocupar exatamente o espaço que sobrar dentro do padding */
+    height: 350px;          /* Mantém a altura que você já tinha definido */
+    object-fit: cover;
+    border-radius: 16px;
     margin: 40px 0 20px 0;
 }
 
