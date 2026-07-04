@@ -1,0 +1,20 @@
+footer{ 
+    padding-block: 24px;
+    display: flex;
+    gap: 24px;
+    font: 14px/150% var(--font-family);
+}
+
+/* footer ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+footer ul li:nth-child(1){
+    margin-right: auto;
+} */
+
+footer span:nth-child(1){
+    margin-right: auto;
+}

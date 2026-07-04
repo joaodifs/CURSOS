@@ -1,0 +1,49 @@
+header{
+    padding-block: 32px;
+    font: var(--text-md);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+display: flex;
+gap: 32px;
+align-items: center;
+}
+
+.profile img{
+    width: 176px;
+    height: 176px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile > div{
+    max-width: 384px;
+}
+
+.profile h1{
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+.profile p{
+}
+
+.info{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info li{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
