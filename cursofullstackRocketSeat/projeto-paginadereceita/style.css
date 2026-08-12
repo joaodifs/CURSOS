@@ -14,8 +14,7 @@ body{
 
 #page{
     box-sizing: border-box;
-    padding: 24px;
-    width: 800px;
+width: 800px;
     background-color: #F0E8C2;
     margin: 48px auto 28px;
     border-radius: 16px;
@@ -26,6 +25,7 @@ img{
 }
 
 main{
+    display: block;
     padding: 24px;
 }
 
